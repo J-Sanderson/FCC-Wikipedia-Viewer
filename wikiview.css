@@ -51,8 +51,14 @@ input, button {
 
 button {
   cursor:pointer;
+  outline: none;
 }
 
 a {
   color:#42647F;
+}
+
+#searchtxt:focus, button:active {
+  background-color:#C6E9F5;
+  outline: none;
 }
